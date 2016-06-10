@@ -3,9 +3,9 @@ import sys
 import datetime
 from flask import Flask, render_template, request, json, send_from_directory
 from knowledge_network.utility.service.gen_daemon import MyDaemon
-from graph_ui.controllers.user_controller import Login
-from graph_ui.controllers.neo4j_controller import Neo4JConnector
-from graph_ui.controllers import stable_neo4j_property as neo4jppt
+from controllers.user_controller import Login
+from controllers.neo4j_controller import Neo4JConnector
+from controllers import stable_neo4j_property as neo4jppt
 import ast
 import logging
 
