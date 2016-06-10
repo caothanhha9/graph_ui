@@ -329,10 +329,10 @@ if __name__ == "__main__":
         elif 'start_one' == sys.argv[1]:
             start_server()
         else:
-            print "Unknown command"
+            print("Unknown command")
             sys.exit(2)
         sys.exit(0)
     else:
         start_server()
-        print "usage: %s start|stop|restart|start_one" % sys.argv[0]
+        print("usage: %s start|stop|restart|start_one" % sys.argv[0])
         # sys.exit(2)
